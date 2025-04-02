@@ -31,8 +31,8 @@ const Education = () => {
   ];
 
   return (
-    <section className="education bg-gray-900 py-16 px-4" id="education">
-      <h2 className="heading text-white text-5xl font-bold text-center mb-16 mt-12">
+    <section className=" bg-[#101010] py-16 px-4 mt-24">
+      <h2 className="heading text-white text-5xl font-bold text-center">
         Education
       </h2>
       <div className="timeline-items relative mx-auto flex flex-wrap max-w-5xl">
@@ -48,7 +48,7 @@ const Education = () => {
             <div className="timeline-date text-xl font-bold text-white mb-4">
               {item.date}
             </div>
-            <div className="timeline-content bg-gray-800 border-2 border-[#0080ff] p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform">
+            <div className="timeline-content bg-[#101010] border-2 border-[#0080ff] p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-xl transition-transform">
               <h3 className="text-lg text-[#0080ff] font-semibold mb-3">
                 {item.title}
               </h3>

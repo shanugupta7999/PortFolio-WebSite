@@ -36,13 +36,13 @@ const Service = () => {
   
 
   return (
-    <section className="services bg-gray-900 text-white py-10 px-20" id="services">
+    <section className="services bg-[#101010] text-white py-10 px-20" id="services">
       <h2 className="text-4xl font-bold text-center mb-12 mt-20">Services</h2>
       <div className="services-container grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:px-20">
         {services.map((service, index) => (
           <div
             key={index}
-            className="service-box bg-gray-800 hover:bg-indigo-500 hover:text-black border-4 border-transparent hover:border-indigo-500 rounded-3xl p-8 transition-transform transform hover:scale-105 cursor-pointer shadow-lg"
+            className="service-box bg-[#151515] hover:bg-indigo-500 hover:text-black border-4 border-transparent hover:border-indigo-500 rounded-3xl p-8 transition-transform transform hover:scale-105 cursor-pointer shadow-lg"
           >
             <div className="service-info space-y-4">
               <h1 className="text-2xl font-bold">{service.title}</h1>

@@ -4,6 +4,7 @@ import image2 from '../Asset/study.webp'
 import image3 from '../Asset/0_Hdm7hBTZ-hKlbtlV.png'
 import image4 from '../Asset/OIP (1).jpg'
 import image5 from '../Asset/OIP.jpg'
+import image6 from '../Asset/EduStreamProjectImage.png'
 const Project = () => {
   const projectList = [
     {
@@ -41,16 +42,23 @@ const Project = () => {
       description: "Portfolio Website, Quiz App, Password Generator, Tic Tac Toe Game, To-Do List, QR Generator App",
       link: "https://www.example.com/project1",
     },
+    {
+      id: 5,
+      image: image6,
+      title: "EduStream",
+      description: "Portfolio Website, Quiz App, Password Generator, Tic Tac Toe Game, To-Do List, QR Generator App",
+      link: "https://www.example.com/project1",
+    },
   ];
 
   return (
-    <section id="projects" className="py-12 bg-gray-900 text-center">
-      <h2 className="text-4xl font-bold text-white mb-8 mt-12">Projects</h2>
-      <div className="flex flex-wrap justify-around mx-auto w-4/5">
+    <section className="bg-[#101010] text-center mt-10">
+      <h2 className="text-4xl font-bold text-white">Projects</h2>
+      <div className="flex flex-wrap justify-around mx-auto w-4/5 ">
         {projectList.map((project) => (
           <div
             key={project.id}
-            className="w-full sm:w-[45%] lg:w-[30%] bg-gray-800 rounded-lg shadow-md overflow-hidden border-2 border-gray-600 transform transition-transform duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-xl mb-8"
+            className="w-full  sm:w-[45%] lg:w-[30%] bg-gray-800 rounded-lg shadow-md overflow-hidden border-2 border-gray-600 transform transition-transform duration-300 hover:scale-105 hover:border-blue-500 hover:shadow-xl mb-8"
           >
             <img
               src={project.image}

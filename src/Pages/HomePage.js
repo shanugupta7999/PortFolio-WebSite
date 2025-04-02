@@ -31,13 +31,13 @@ const HomePage = () => {
     return (
         <section
             id="home"
-            className="flex items-center justify-center gap-[10rem] mt-[1rem] px-20 w-screen h-screen bg-gray-900 "
+            className="flex items-center justify-center gap-[10rem] mt-[1rem] px-20 w-screen h-screen bg-[#101010] "
         >
             <div className="flex flex-col items-start justify-center ">
-                <h1 className="text-7xl font-bold mt-[1.5rem] leading-[1] bg-gray-900 text-white">
+                <h1 className="text-7xl font-bold mt-[1.5rem] leading-[1] bg-[#101010] text-white">
                     Hi, It's <span className="text-[#0080ff]">Shanu</span>
                 </h1>
-                <h3 className="relative text-3xl font-semibold mt-4 min-w-[280px] bg-gray-900 text-white">
+                <h3 className="relative text-3xl font-semibold mt-4 min-w-[280px] bg-[#101010] text-white">
                     I'm a{' '}
                     <span className="relative">
                         <span className="text-[#0080ff] text-5xl ml-4">{currentText}</span>
@@ -45,7 +45,7 @@ const HomePage = () => {
                     </span>
                 </h3>
 
-                <p className="text-lg font-medium leading-[1.8] max-w-[1000px] mt-4 text-white">
+                <p className="text-xl font-medium leading-[1.8] max-w-[1000px] mt-4 text-white">
                     A highly organized and self-motivated individual. Looking for an
                     entry-level position in the software development domain where I can
                     utilize my extensive knowledge about the area gained during my MCA
@@ -95,13 +95,13 @@ const HomePage = () => {
                 <div className="flex items-center gap-4 mt-8">
                     <a
                         href="https://drive.google.com/drive/folders/1oYGFuGtvKYMbmhBfyUrMearTbdWte4zY"
-                        className="btn bg-blue-500 text-black px-10 py-1 rounded-full font-semibold shadow-lg hover:text-[#0080ff] hover:bg-black"
+                        className="btn bg-blue-500 text-black px-12 py-2 rounded-full font-semibold shadow-lg border-2 border-black  hover:text-[#0080ff] hover:bg-black"
                     >
                         Hire Me
                     </a>
                     <Link
                         to="/contact"
-                        className="btn bg-black text-[#0080ff] border-2 border-[#0080ff] px-10 py-1 rounded-full font-semibold shadow-lg hover:bg-blue-500 hover:text-black"
+                        className="btn bg-black text-[#0080ff] border-2 border-[#0080ff] px-12 py-2 rounded-full font-semibold shadow-lg hover:bg-blue-500 hover:text-black"
                     >
                     Contact Me
                     </Link>

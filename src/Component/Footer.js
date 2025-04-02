@@ -4,7 +4,7 @@ import { FaGithub, FaTwitter, FaFacebook } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10">
+    <footer className="bg-black text-white py-10 text-xl">
       {/* Social Media Icons */}
       <div className="flex justify-center mb-6">
         <a
@@ -47,7 +47,7 @@ const Footer = () => {
 
       {/* Contact Information */}
       <div className="text-center mb-8">
-        <p className="text-sm md:text-base">
+        <p className="text-lg md:text-base">
           <span className="font-bold">Phone:</span>{" "}
           <a
             href="tel:+917999499339"
@@ -56,7 +56,7 @@ const Footer = () => {
             +91-7999499339
           </a>
         </p>
-        <p className="text-sm md:text-base">
+        <p className="text-lg md:text-base">
           <span className="font-bold">Email:</span>{" "}
           <a
             href="mailto:shanukumargupta.224ca056@nitk.edu.in"
@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
 
       {/* Quick Links */}
-      <ul className="list flex justify-center flex-wrap gap-6 text-lg">
+      <ul className="list flex justify-center flex-wrap gap-6 text-2xl">
         <li>
           <a
             href="#faq"
@@ -112,7 +112,7 @@ const Footer = () => {
       </ul>
 
       {/* Copyright Notice */}
-      <p className="copywrite mt-8 text-center text-sm text-gray-400">
+      <p className="copywrite mt-8 text-center text-xl text-gray-400">
         © 2024 Shanu Kumar Gupta | All Rights Reserved
       </p>
     </footer>

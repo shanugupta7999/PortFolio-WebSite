@@ -27,14 +27,14 @@ const Testimonial = () => {
   ];
 
   return (
-    <section className="testimonials bg-gray-900 py-20" id="testimonials">
+    <section className="testimonials bg-[#101010] py-20" id="testimonials">
       <div className="testimonials-box flex flex-col items-center">
         <h2 className="text-4xl font-bold text-white mb-16 mt-12">Testimonials</h2>
         <div className="wrapper grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="testimonial-item bg-gray-800 border-2 border-gray-500 hover:border-indigo-500 hover:scale-105 transform transition-all duration-300 rounded-2xl p-8 flex flex-col items-center text-center gap-6 shadow-lg"
+              className="testimonial-item bg-[#151515] border-2 border-gray-500 hover:border-indigo-500 hover:scale-105 transform transition-all duration-300 rounded-2xl p-8 flex flex-col items-center text-center gap-6 shadow-lg"
             >
               <img
                 src={testimonial.image}

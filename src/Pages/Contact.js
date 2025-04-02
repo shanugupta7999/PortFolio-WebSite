@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact bg-gray-800 py-20" id="contact">
+    <section className="contact bg-[#101010] py-20" id="contact">
       <h2 className="text-4xl font-bold text-white text-center mb-12 mt-12">
         Contact <span className="text-[#0080ff]">Me</span>
       </h2>
@@ -58,7 +58,7 @@ const Contact = () => {
               placeholder="Full Name"
               value={formData.fullName}
               onChange={handleInputChange}
-              className="w-full p-4 text-lg text-gray-800 bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
+              className="w-full p-4 text-lg text-white bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
               required
             />
             <input
@@ -67,7 +67,7 @@ const Contact = () => {
               placeholder="Email"
               value={formData.email}
               onChange={handleInputChange}
-              className="w-full p-4 mt-4 text-lg text-gray-800 bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
+              className="w-full p-4 mt-4 text-lg text-white bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
               required
             />
           </div>
@@ -78,7 +78,7 @@ const Contact = () => {
               placeholder="Number"
               value={formData.number}
               onChange={handleInputChange}
-              className="w-full p-4 text-lg text-gray-800 bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
+              className="w-full p-4 text-lg text-white bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
               required
             />
             <input
@@ -87,7 +87,7 @@ const Contact = () => {
               placeholder="Subject"
               value={formData.subject}
               onChange={handleInputChange}
-              className="w-full p-4 mt-4 text-lg text-gray-800 bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
+              className="w-full p-4 mt-4 text-lg text-white bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff]"
               required
             />
           </div>
@@ -100,7 +100,7 @@ const Contact = () => {
             placeholder="Your Message"
             value={formData.message}
             onChange={handleInputChange}
-            className="w-full p-4 text-lg text-gray-800 bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff] resize-none"
+            className="w-full p-4 text-lg text-white bg-gray-900 rounded-xl border-2 border-[#0080ff] focus:outline-none focus:ring-2 focus:ring-[#0080ff] resize-none"
             required
           ></textarea>
           <button
